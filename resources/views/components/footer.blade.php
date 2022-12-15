@@ -4,43 +4,50 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <h4 class="text-light mb-4">Alamat</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kompleks Pergudangan Bizpark C-3, Tambak
+                        Sawah, Waru - Sidoarjo </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>
+                        <a class="text-white" href="#"> +{{ env('PHONE_NUMBER_1') }} </a> / <a class="text-white"
+                            href="#"> +{{ env('PHONE_NUMBER_2') }} </a>
+                    </p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a class="text-white" href="#">
+                            {{ env('EMAIL_ADDRESS') }} </a></p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-tiktok"></i></a>
+
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">General Carpentry</a>
-                    <a class="btn btn-link" href="">Furniture Remodeling</a>
-                    <a class="btn btn-link" href="">Wooden Floor</a>
-                    <a class="btn btn-link" href="">Wooden Furniture</a>
-                    <a class="btn btn-link" href="">Custom Carpentry</a>
+                    <h4 class="text-light mb-4">Layanan Kami</h4>
+                    <a class="btn btn-link" href="#">Hot Stamp</a>
+                    <a class="btn btn-link" href="#">Spot UV</a>
+                    <a class="btn btn-link" href="#">Laminating</a>
+                    <a class="btn btn-link" href="#">Laminating Window</a>
+                    <a class="btn btn-link" href="#">UV Varnish</a>
+                    <a class="btn btn-link" href="#">Pond</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <h4 class="text-light mb-4">Menu</h4>
+                    <a class="btn btn-link" href="#about">Tentang Kami</a>
+                    <a class="btn btn-link" href="#timeline">Perjalan</a>
+                    <a class="btn btn-link" href="{{ route('services') }}">Layanan Kami</a>
+                    <a class="btn btn-link" href="#partner">Partner</a>
+                    <a class="btn btn-link" href="#gallery">Galeri</a>
+                    <a class="btn btn-link" href="{{ route('career') }}">Karir</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <img src="{{ asset('img/logo.png') }}" height="120px" alt="">
+                    {{-- <h4 class="text-light mb-4">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text"
                             placeholder="Your email">
                         <button type="button"
                             class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

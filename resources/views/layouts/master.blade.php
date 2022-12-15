@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="{{ asset('img/favicon.ico') }}" rel="icon">
+    <link href="{{ asset('img/favicon/favicon.ico') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,7 @@
         rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
@@ -54,8 +54,25 @@
     @endcomponent
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
+    <div>
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top" style="bottom:80px"><i
+                class="bi bi-arrow-up"></i></a>
+        <div class="dropup">
+            <button class="btn btn-lg btn-primary btn-lg-square rounded-0"
+                style="bottom:24px;z-index: 99px;position: fixed;right: 45px;" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-whatsapp"></i>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" target="blank"
+                        href="{{ 'https://api.whatsapp.com/send?phone=' . env('PHONE_NUMBER_1') . '&text=Halo%20Saya%20Mau...' }}">Admin
+                        1</a></li>
+                <li><a class="dropdown-item" target="blank"
+                        href="{{ 'https://api.whatsapp.com/send?phone=' . env('PHONE_NUMBER_2') . '&text=Halo%20Saya%20Mau...' }}">Admin
+                        2</a></li>
+            </ul>
+        </div>
+    </div>
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

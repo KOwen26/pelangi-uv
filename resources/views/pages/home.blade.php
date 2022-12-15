@@ -68,8 +68,9 @@
                         <div class="col-lg-4 bg-primary " style="min-height: 200px;">
                             <div
                                 class="d-flex flex-column align-items-center justify-content-center h-100 text-center text-white">
-                                <h2 class="text-white">
-                                    982+
+                                <i class="fs-4 fas fa-users mb-2"></i>
+                                <h2 class="counter text-white">
+                                    <span data-toggle="counter-up">982</span>+
                                 </h2>
                                 <p class="">
                                     Pelanggan
@@ -78,8 +79,9 @@
                         </div>
                         <div class="col-lg-4 text-center align-middle bg-light" style="min-height: 200px;">
                             <div class="d-flex flex-column  align-items-center justify-content-center h-100">
+                                <i class="fs-4 fas fa-gears mb-2"></i>
                                 <h2 class="">
-                                    16+
+                                    <span data-toggle="counter-up">16</span>+
                                 </h2>
                                 <p class="">
                                     Layanan
@@ -89,8 +91,9 @@
                         <div class="col-lg-4 bg-primary text-white" style="min-height: 200px;">
                             <div
                                 class="d-flex flex-column align-items-center justify-content-center h-100 text-center text-white">
+                                <i class="fs-4 fas fa-receipt mb-2"></i>
                                 <h2 class="text-white">
-                                    5000+
+                                    <span data-toggle="counter-up">5000</span>+
                                 </h2>
                                 <p class="">
                                     Proyek Selesai
@@ -188,7 +191,7 @@
                                             </div>
                                             <div class="ms-3">
                                                 <h2 class="text-primary mb-1" data-toggle="counter-up">2004</h2>
-                                                <p class="fw-medium mb-0">Established Since</p>
+                                                <p class="fw-medium mb-0">Berdiri Sejak</p>
                                             </div>
                                         </div>
                                     </div>
@@ -200,7 +203,7 @@
                                             </div>
                                             <div class="ms-3">
                                                 <h2 class="text-primary mb-1" data-toggle="counter-up">17</h2>
-                                                <p class="fw-medium mb-0">Printing Machines</p>
+                                                <p class="fw-medium mb-0">Mesin Printing</p>
                                             </div>
                                         </div>
                                     </div>
@@ -218,11 +221,16 @@
                                 <p class="mb-4 pb-2 ">Menjadi partner kerja yang inovatif dan produktif serta dapat
                                     memberikan sesuatu nilai tambah baru dalam upaya menghasilkan produk cetakan yang
                                     berkualitas tinggi.</p>
-                                <p class="mb-4 pb-2 ">
+                                <ol class="">
+                                    <li>Bekerja dengan kualitas dan ketepatan waktu.</li>
+                                    <li>Berinovasi serta mengikuti tuntutan pasar.</li>
+                                    <li>Menjalin hubungan kerjasama yang saling menguntungkan.</li>
+                                </ol>
+                                {{-- <p class="mb-4 pb-2 ">
                                     1. Bekerja dengan kualitas dan ketepatan waktu. <br>
                                     2. Berinovasi serta mengikuti tuntutan pasar. <br>
                                     3. Menjalin hubungan kerjasama yang saling menguntungkan.
-                                </p>
+                                </p> --}}
 
                             </div>
                         </div>
@@ -239,94 +247,17 @@
         </section>
         <!-- About End -->
 
-        <section>
+        <section id="timeline">
             @component('components.timeline')
             @endcomponent
         </section>
 
 
         <!-- Service Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="section-title text-center">
-                    <h1 class="display-5 mb-5">Our Services</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/service-1.jpg" alt="">
-                            </div>
-                            <div class="p-4 text-center border border-5 border-light border-top-0">
-                                <h4 class="mb-3">General Carpentry</h4>
-                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                                <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/service-2.jpg" alt="">
-                            </div>
-                            <div class="p-4 text-center border border-5 border-light border-top-0">
-                                <h4 class="mb-3">Furniture Manufacturing</h4>
-                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                                <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/service-3.jpg" alt="">
-                            </div>
-                            <div class="p-4 text-center border border-5 border-light border-top-0">
-                                <h4 class="mb-3">Furniture Remodeling</h4>
-                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                                <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/service-4.jpg" alt="">
-                            </div>
-                            <div class="p-4 text-center border border-5 border-light border-top-0">
-                                <h4 class="mb-3">Wooden Floor</h4>
-                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                                <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/service-5.jpg" alt="">
-                            </div>
-                            <div class="p-4 text-center border border-5 border-light border-top-0">
-                                <h4 class="mb-3">Wooden Furniture</h4>
-                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                                <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/service-6.jpg" alt="">
-                            </div>
-                            <div class="p-4 text-center border border-5 border-light border-top-0">
-                                <h4 class="mb-3">Custom Work</h4>
-                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                                <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <section id="services">
+            @component('components.services')
+            @endcomponent
+        </section>
         <!-- Service End -->
 
 
@@ -336,8 +267,8 @@
                 <div class="row g-0 mx-lg-0">
                     <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
                         <div class="p-lg-5 ps-lg-0">
-                            <div class="section-title text-start">
-                                <h1 class="display-5 mb-4">Why Choose Us</h1>
+                            <div class=" text-start">
+                                <h1 class="display-5 mb-4">Kenapa Pilih Kami</h1>
                             </div>
                             <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
                                 amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat
@@ -406,128 +337,12 @@
         <!-- Feature End -->
 
 
-        <!-- Projects Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="section-title text-center">
-                    <h1 class="display-5 mb-5">Our Projects</h1>
-                </div>
-                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="col-12 text-center">
-                        <ul class="list-inline mb-5" id="portfolio-flters">
-                            <li class="mx-2 active" data-filter="*">All</li>
-                            <li class="mx-2" data-filter=".first">General Carpentry</li>
-                            <li class="mx-2" data-filter=".second">Custom Carpentry</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row g-4 portfolio-container">
-                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="rounded overflow-hidden">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                                <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg"
-                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
-                                            class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">General Carpentry</p>
-                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="rounded overflow-hidden">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                                <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-2.jpg"
-                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
-                                            class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
-                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="rounded overflow-hidden">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                                <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-3.jpg"
-                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
-                                            class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">General Carpentry</p>
-                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="rounded overflow-hidden">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                                <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-4.jpg"
-                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
-                                            class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
-                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="rounded overflow-hidden">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                                <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-5.jpg"
-                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
-                                            class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">General Carpentry</p>
-                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="rounded overflow-hidden">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                                <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-6.jpg"
-                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
-                                            class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
-                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Projects End -->
+        <!-- Gallery Start -->
+        <section id="gallery">
+            @component('components.gallery')
+            @endcomponent
+        </section>
+        <!-- Gallery End -->
 
 
         <!-- Quote Start -->
@@ -542,8 +357,8 @@
                     </div>
                     <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
                         <div class="p-lg-5 pe-lg-0">
-                            <div class="section-title text-start">
-                                <h1 class="display-5 mb-4">Free Quote</h1>
+                            <div class=" text-start">
+                                <h1 class="display-5 mb-4">Pesan Sekarang</h1>
                             </div>
                             <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
                                 amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat
@@ -587,9 +402,9 @@
 
 
         <!-- Team Start -->
-        <div class="container-xxl py-5">
+        {{-- <div class="container-xxl py-5">
             <div class="container">
-                <div class="section-title text-center">
+                <div class=" text-center">
                     <h1 class="display-5 mb-5">Team Members</h1>
                 </div>
                 <div class="row g-4">
@@ -659,15 +474,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Team End -->
 
 
         <!-- Testimonial Start -->
         <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
-                <div class="section-title text-center">
-                    <h1 class="display-5 mb-5">Testimonial</h1>
+                <div class=" text-center">
+                    <h1 class="display-5 mb-5">Testimoni</h1>
                 </div>
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item text-center">

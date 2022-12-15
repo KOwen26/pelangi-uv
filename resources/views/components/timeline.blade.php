@@ -56,23 +56,25 @@
                 </div>
                 <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                     <div class="timeline-text">
-                        <div class="timeline-date">2045 - 2050</div>
-                        <h2>Web Developer</h2>
-                        <h4>Soft Agency, San Francisco, CA</h4>
+                        <div class="timeline-date">2016</div>
+                        <h2>Pemindahan Gudang ke Pusat Industri</h2>
+                        <h4>Semakin Besar Produksi dan Makin Berkembang Perusahaan</h4>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit
-                            semper pretium.
+                            Semakin bertambah pelanggan dan semakin banyak pula pesanan yang masuk, hal ini
+                            mengakibatkan perusahaan harus memindahkan gudang dan produksinya ke pusat industri di
+                            pergudangan Bizpark Waru Sidoarjo dan adanya penambahan armada pengiriman.
                         </p>
                     </div>
                 </div>
                 <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
                     <div class="timeline-text">
-                        <div class="timeline-date">2045 - 2050</div>
-                        <h2>Web Developer</h2>
-                        <h4>Soft Agency, San Francisco, CA</h4>
+                        <div class="timeline-date">2017 - Sekarang</div>
+                        <h2>Serba Profesional</h2>
+                        <h4>Ribuan Pelanggan & Ratusan Ribu Produksi Setiap Bulannya</h4>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit
-                            semper pretium.
+                            Mesin-mesin bertambah semakin banyak dan serba otomatis. Dengan karyawan 80 orang yang
+                            bekerja secara sift dan profesional pada bidangnya masing-masing. Semakin banyak armada
+                            pengiriman dengan total 7 armada untuk memenuhi kebutuhan customer.
                         </p>
                     </div>
                 </div>
