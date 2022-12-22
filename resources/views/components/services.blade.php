@@ -1,5 +1,5 @@
 @php
-    $services = [['image' => 'img/service-1.jpg', 'name' => 'Hot Stamp', 'description' => 'Hot Stamp (Silver/Gold, Warna-Warni)', 'action' => 'hot-stamp'], ['image' => 'img/service-2.jpg', 'name' => 'Spot UV', 'description' => 'Spot UV (Spot UV C, Matte, Pasir)', 'action' => 'spot-uv'], ['image' => 'img/service-3.jpg', 'name' => 'Laminating', 'description' => 'Laminating (Laminating Doff,  Gloss, Hologram)', 'action' => 'laminating'], ['image' => 'img/service-4.jpg', 'name' => 'Laminating Window', 'description' => 'Laminating Window (25 Micron, 20 Micron, 12 Micron)', 'action' => 'laminating-window'], ['image' => 'img/service-5.jpg', 'name' => 'UV Varnish', 'description' => 'UV Varnish (UV Varnish, Waterbased Gloss, Waterbased Doff)', 'action' => 'uv-varnish'], ['image' => 'img/service-6.jpg', 'name' => 'Pond', 'description' => 'Pond (Plong Kecil, Plong Besar)', 'action' => 'pond']];
+    $services = [['image' => 'img/hot-stamp.webp', 'name' => 'Hot Stamp', 'description' => 'Hot Stamp (Silver/Gold, Warna-Warni)', 'action' => 'hot-stamp'], ['image' => 'img/spot-uv.webp', 'name' => 'Spot UV', 'description' => 'Spot UV (Spot UV C, Matte, Pasir)', 'action' => 'spot-uv'], ['image' => 'img/laminating.webp', 'name' => 'Laminating', 'description' => 'Laminating (Laminating Doff,  Gloss, Hologram)', 'action' => 'laminating'], ['image' => 'img/laminating-window.webp', 'name' => 'Laminating Window', 'description' => 'Laminating Window (25 Micron, 20 Micron, 12 Micron)', 'action' => 'laminating-window'], ['image' => 'img/uv-varnish.webp', 'name' => 'UV Varnish', 'description' => 'UV Varnish (UV Varnish, Waterbased Gloss, Waterbased Doff)', 'action' => 'uv-varnish'], ['image' => 'img/pond.webp', 'name' => 'Pond', 'description' => 'Pond (Plong Kecil, Plong Besar)', 'action' => 'pond']];
 @endphp
 
 <div>
@@ -13,13 +13,14 @@
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item">
                             <div class="overflow-hidden">
-                                <img class="img-fluid" src="{{ asset($service['image']) }}" alt="">
+                                <img class="img-fluid w-100" src="{{ asset($service['image']) }}"
+                                    style="height: 240px;object-fit:cover" alt="">
                             </div>
                             <div class="p-4 text-center border border-5 border-light border-top-0">
                                 <h4 class="mb-3">{{ $service['name'] }}</h4>
                                 <p>{{ $service['description'] }}</p>
                                 <a class="fw-medium"
-                                    href="{{ route('services') . '/#' . $service['action'] }}">Selengkapnya<i
+                                    href="{{ route('services') . '#' . $service['action'] }}">Selengkapnya<i
                                         class="fa fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>

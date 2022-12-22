@@ -65,11 +65,11 @@
             </button>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" target="blank"
-                        href="{{ 'https://api.whatsapp.com/send?phone=' . env('PHONE_NUMBER_1') . '&text=Halo%20Saya%20Mau...' }}">Admin
-                        1</a></li>
+                        href="{{ 'https://api.whatsapp.com/send?phone=' . env('PHONE_NUMBER_1') . '&text=Halo%20Saya%20Mau...' }}"><i
+                            class="fab fa-whatsapp"></i><span class="mx-2">Admin Nurul </span> </a></li>
                 <li><a class="dropdown-item" target="blank"
-                        href="{{ 'https://api.whatsapp.com/send?phone=' . env('PHONE_NUMBER_2') . '&text=Halo%20Saya%20Mau...' }}">Admin
-                        2</a></li>
+                        href="{{ 'https://api.whatsapp.com/send?phone=' . env('PHONE_NUMBER_2') . '&text=Halo%20Saya%20Mau...' }}"><i
+                            class="fab fa-whatsapp"></i><span class="mx-2">Admin Ima</span></a></li>
             </ul>
         </div>
     </div>

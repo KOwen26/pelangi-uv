@@ -1,6 +1,5 @@
-<div>
-    <!-- Topbar Start -->
-    {{-- <div class="container-fluid bg-light p-0">
+<!-- Topbar Start -->
+{{-- <div class="container-fluid bg-light p-0">
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
@@ -32,27 +31,27 @@
             </div>
         </div>
     </div> --}}
-    <!-- Topbar End -->
+<!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="{{ route('home') }}" class="navbar-brand d-flex gap-2 align-items-center px-4 px-lg-5">
-            <img src="{{ asset('img/logo.png') }}" height="40px" alt="">
-            {{-- <h2 class="m-0 text-primary">CV Pelangi UV</h2> --}}
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="#" class="nav-item nav-link active">Beranda</a>
-                <a href="#about" class="nav-item nav-link">Tentang Kami</a>
-                <a href="#timeline" class="nav-item nav-link">Perjalanan</a>
-                <a href="#services" class="nav-item nav-link">Layanan Kami</a>
-                <a href="#partner" class="nav-item nav-link">Partner</a>
-                {{-- <a href="#gallery" class="nav-item nav-link">Galeri</a> --}}
-                {{-- <div class="nav-item dropdown">
+<!-- Navbar Start -->
+<nav id="main-navbar" class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <a href="{{ route('home') }}" class="navbar-brand d-flex gap-2 align-items-center px-4 px-lg-5">
+        <img src="{{ asset('img/logo.png') }}" height="40px" alt="">
+        {{-- <h2 class="m-0 text-primary">CV Pelangi UV</h2> --}}
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            {{-- <a href="#" class="nav-item nav-link active">Beranda</a> --}}
+            <a href="#about" class="nav-item nav-link">Tentang Kami</a>
+            <a href="#timeline" class="nav-item nav-link">Perjalanan</a>
+            <a href="#services" class="nav-item nav-link">Layanan Kami</a>
+            <a href="#partner" class="nav-item nav-link">Partner</a>
+            <a href="#gallery" class="nav-item nav-link">Galeri</a>
+            {{-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu fade-up m-0">
                         <a href="feature.html" class="dropdown-item">Feature</a>
@@ -63,10 +62,9 @@
                     </div>
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a> --}}
-            </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Pesan Sekarang<i
-                    class="fa fa-arrow-right ms-3"></i></a>
         </div>
-    </nav>
-    <!-- Navbar End -->
-</div>
+        <a href="#order-now" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Pesan Sekarang<i
+                class="fa fa-arrow-right ms-3"></i></a>
+    </div>
+</nav>
+<!-- Navbar End -->
