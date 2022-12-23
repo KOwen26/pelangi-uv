@@ -61,7 +61,7 @@
         autoplay: true,
         smartSpeed: 1000,
         center: true,
-        dots: false,
+        // dots: true,
         loop: true,
         nav: true,
         navText: [

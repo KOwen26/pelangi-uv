@@ -214,7 +214,7 @@
                         <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
                             <div class="position-relative h-100">
                                 <img class="position-absolute img-fluid w-100 h-100"
-                                    src="{{ asset('img/pelangi-uv.webp') }}" style="object-fit: cover;" alt="">
+                                    src="{{ asset('img/pelangi-uv.webp') }}" style="object-fit: contain;" alt="">
                                 {{-- <iframe class="w-100 h-75" src="https://www.youtube.com/embed/iguuSI8pc_w"
                                     title="CV Pelangi UV" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -291,7 +291,8 @@
                         <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
                             <div class="position-relative h-100">
                                 <img class="position-absolute img-fluid w-100 h-100"
-                                    src="{{ asset('img/pelangi-uv-2.webp') }}" style="object-fit: cover;" alt="">
+                                    src="{{ asset('img/pelangi-uv-2.webp') }}" style="object-fit: contain;"
+                                    alt="">
                             </div>
                         </div>
 
@@ -346,7 +347,7 @@
                                         <div class="d-flex align-items-center">
                                             <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
                                                 style="width: 60px; height: 60px;">
-                                                <i class="fa fa-user-check fa-2x text-primary"></i>
+                                                <i class="fas fa-truck-fast fa-2x text-primary"></i>
                                             </div>
                                             <div class="ms-4">
                                                 {{-- <p class="mb-2">Creative</p> --}}
@@ -358,7 +359,7 @@
                                         <div class="d-flex align-items-center">
                                             <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
                                                 style="width: 60px; height: 60px;">
-                                                <i class="fa fa-drafting-compass fa-2x text-primary"></i>
+                                                <i class="fas fa-money-bill-wave fa-2x text-primary"></i>
                                             </div>
                                             <div class="ms-4">
                                                 {{-- <p class="mb-2">Free</p> --}}
@@ -370,7 +371,7 @@
                                         <div class="d-flex align-items-center">
                                             <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
                                                 style="width: 60px; height: 60px;">
-                                                <i class="fa fa-headphones fa-2x text-primary"></i>
+                                                <i class="fa fa-user-check fa-2x text-primary"></i>
                                             </div>
                                             <div class="ms-4">
                                                 {{-- <p class="mb-2">Customer</p> --}}
@@ -463,7 +464,7 @@
                                         </div>
                                         <div class="col-12">
                                             <button class="btn btn-primary w-100 py-3" onclick="order()"
-                                                type="button">Submit</button>
+                                                type="button">Pesan Sekarang</button>
                                         </div>
                                     </div>
                                 </form>

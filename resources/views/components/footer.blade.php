@@ -37,11 +37,11 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Menu</h4>
-                    <a class="btn btn-link" href="#about">Tentang Kami</a>
-                    <a class="btn btn-link" href="#timeline">Perjalan</a>
+                    <a class="btn btn-link" href="{{ route('home') }}#about">Tentang Kami</a>
+                    <a class="btn btn-link" href="{{ route('home') }}#timeline">Perjalan</a>
                     <a class="btn btn-link" href="{{ route('services') }}">Layanan Kami</a>
-                    <a class="btn btn-link" href="#partner">Partner</a>
-                    <a class="btn btn-link" href="#gallery">Galeri</a>
+                    <a class="btn btn-link" href="{{ route('home') }}#partner">Partner</a>
+                    <a class="btn btn-link" href="{{ route('home') }}#gallery">Galeri</a>
                     <a class="btn btn-link" href="{{ route('career') }}">Karir</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
