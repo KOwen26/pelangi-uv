@@ -46,11 +46,11 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
             {{-- <a href="#" class="nav-item nav-link active">Beranda</a> --}}
-            <a href="#about" class="nav-item nav-link">Tentang Kami</a>
-            <a href="#timeline" class="nav-item nav-link">Perjalanan</a>
-            <a href="#services" class="nav-item nav-link">Layanan Kami</a>
-            <a href="#partner" class="nav-item nav-link">Partner</a>
-            <a href="#gallery" class="nav-item nav-link">Galeri</a>
+            <a href="{{ route('home') }}#about" class="nav-item nav-link">Tentang Kami</a>
+            <a href="{{ route('home') }}#timeline" class="nav-item nav-link">Perjalanan</a>
+            <a href="{{ route('home') }}#services" class="nav-item nav-link">Layanan Kami</a>
+            <a href="{{ route('home') }}#partner" class="nav-item nav-link">Partner</a>
+            <a href="{{ route('home') }}#gallery" class="nav-item nav-link">Galeri</a>
             {{-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu fade-up m-0">
@@ -63,7 +63,7 @@
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a> --}}
         </div>
-        <a href="#order-now" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Pesan Sekarang<i
+        <a href="{{ route('home') }}#order-now" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Pesan Sekarang<i
                 class="fa fa-arrow-right ms-3"></i></a>
     </div>
 </nav>

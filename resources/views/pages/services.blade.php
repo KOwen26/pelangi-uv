@@ -152,7 +152,29 @@
 @extends('layouts.master')
 @section('body')
     <div>
-        {{-- <div class="py-5"></div> --}}
+        <div class="">
+            <div class="position-relative">
+                <img class="img-fluid" style="min-height: 640px; object-fit:cover" src="{{ asset('img/pelangi-uv-2.webp') }}"
+                    alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(53, 53, 53, .7);">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Layanan Kami
+                                </h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Kami menyediakan 16 jenis layanan yang bisa
+                                    memenuhi kebutuhan finishingmu
+                                </p>
+                                <a href="#hot-stamp"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Pelajari
+                                    Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         @foreach ($services as $service)
             <div class="container-fluid {{ $service['position'] == 'right' ? 'bg-light' : '' }}  overflow-hidden px-lg-0 py-lg-5"
                 style="margin: 5rem auto">
@@ -162,13 +184,13 @@
                             <img class="img-fluid w-100 h-100" src="{{ asset($service['image']) }}"
                                 style="object-fit: cover; min-height: 320px;" alt="">
                         </div>
-                        <div class="col-lg-6 {{ $service['position'] == 'right' ? 'order-first' : '' }} wow fadeIn "
+                        <div class="col-lg-6 {{ $service['position'] == 'right' ? 'order-lg-first' : '' }} wow fadeIn "
                             data-wow-delay="0.5s">
-                            <div class="p-lg-5 {{ $service['position'] == 'right' ? 'ps-lg-0' : 'pe-lg-0' }} ">
+                            <div class="p-lg-5 py-3 {{ $service['position'] == 'right' ? 'ps-lg-0' : 'pe-lg-0' }} ">
                                 <div class=" text-start">
                                     <h1 class="display-5 text-uppercase">{{ $service['name'] }}
                                     </h1>
-                                    <h5 class="mb-5 text-primary">{{ $service['subtitle'] }}</h6>
+                                    <h5 class="mb-4 text-primary">{{ $service['subtitle'] }}</h6>
                                 </div>
                                 <p class="mb-2 pb-2 ">{{ $service['description'] ?: '' }}</p>
                                 <div class="mb-2">
@@ -230,15 +252,24 @@
                                         </div>
                                     </div>
                                 </div> --}}
-
-                                <a href="{{ $action . $service['name'] }}" target="blank"
-                                    class="btn btn-primary py-3 px-5 {{ $service['position'] == 'right' ? 'float-end' : '' }}">Pesan
-                                    Sekarang</a>
+                                <div class="{{ $service['position'] == 'right' ? 'text-end' : '' }}">
+                                    <a href="{{ $action . $service['name'] }}" target="blank"
+                                        class="btn btn-primary py-3 px-5 d-md-inline-block d-none ">Pesan
+                                        Sekarang</a>
+                                    <a href="{{ $action . $service['name'] }}" target="blank"
+                                        class="btn btn-primary py-3 px-5 w-100 d-md-none">Pesan
+                                        Sekarang</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         @endforeach
+        <div class="py-4">
+            <h1 class="text-center">Tertarik menggunakan layanan kami?</h1>
+        </div>
+        @component('components.order-now')
+        @endcomponent
     </div>
 @endsection

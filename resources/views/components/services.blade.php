@@ -27,6 +27,9 @@
                     </div>
                 @endforeach
             </div>
+            <div class="text-center mt-4 wow fadeInUp" data-wow-delay="0.2s">
+                <a class="btn btn-primary px-5 py-3 fw-bold" href="{{ route('services') }}">Lihat Selengkapnya</a>
+            </div>
         </div>
     </div>
 </div>
