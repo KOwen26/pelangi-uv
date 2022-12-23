@@ -190,7 +190,7 @@
                     <div class="row g-0 mx-lg-0">
                         <div class="col-12 ps-lg-0">
                             <div class="text-center mb-5">
-                                <h1 class="display-5 mb-3">Ayuk kenali <span class="text-primary">Pelangi
+                                <h1 class="display-5 mb-3">Mari kenali <span class="text-primary">Pelangi
                                         UV</span> lebih dalam
                                 </h1>
                             </div>
@@ -228,8 +228,8 @@
                                     </h1>
                                 </div>
                                 <p class="mb-4 pb-2 ">CV Pelangi UV merupakan perusahaan yang bergerak pada
-                                    bidang finishing cetak dan telah berdiri sejak tahun 2004
-                                    . Kantor kami terletak di Kompleks Pergudangan Bizpark C-3,
+                                    bidang finishing cetak dan telah berdiri sejak tahun 2004. Kantor kami terletak di
+                                    Kompleks Pergudangan Bizpark C-3,
                                     Tambak Sawah, Waru, Sidoarjo. Saat ini kami memiliki 17 mesin cetak dengan tenaga
                                     operator yang sudah profesional dan
                                     berpengalaman pada bidang finishing selama bertahun-tahun. Kualitas hasil finishing
@@ -256,7 +256,7 @@
                                             </div>
                                             <div class="ms-3">
                                                 <h2 class="text-primary mb-1" data-toggle="counter-up">17</h2>
-                                                <p class="fw-medium mb-0">Mesin Printing</p>
+                                                <p class="fw-medium mb-0">Mesin Finishing</p>
                                             </div>
                                         </div>
                                     </div>
@@ -330,7 +330,7 @@
                                     Quality
                                     Be A Priority"</p>
                                 <div class="row g-4">
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12">
                                         <div class="d-flex align-items-center">
                                             <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
                                                 style="width: 60px; height: 60px;">
@@ -342,7 +342,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12">
                                         <div class="d-flex align-items-center">
                                             <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
                                                 style="width: 60px; height: 60px;">
@@ -354,7 +354,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12">
                                         <div class="d-flex align-items-center">
                                             <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
                                                 style="width: 60px; height: 60px;">
@@ -366,7 +366,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12">
                                         <div class="d-flex align-items-center">
                                             <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
                                                 style="width: 60px; height: 60px;">
@@ -402,38 +402,16 @@
                         @foreach ($testimony as $testimony)
                             <div class="testimonial-item text-center">
                                 <img class="img-fluid  p-2 mx-auto mb-3" src="{{ asset($testimony['image']) }}"
-                                    style="width: 600px; height: 240px; object-fit: contain">
-                                <div class="testimonial-text text-center p-4">
-                                    {{-- <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
+                                    style="width: auto; height: 120px; object-fit: contain">
+                                {{-- <div class="testimonial-text text-center p-4">
+                                    <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
                                     ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                                    clita.</p> --}}
+                                    clita.</p>
                                     <h5 class="mb-1">{{ $testimony['title'] }}</h5>
-                                    {{-- <span class="fst-italic">Sejak 2018</span> --}}
-                                </div>
+                                    <span class="fst-italic">Sejak 2018</span>
+                                </div> --}}
                             </div>
                         @endforeach
-                        {{-- <div class="testimonial-item text-center">
-                            <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-2.jpg"
-                                style="width: 90px; height: 90px;">
-                            <div class="testimonial-text text-center p-4">
-                                <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                                    ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                                    clita.</p>
-                                <h5 class="mb-1">Client Name</h5>
-                                <span class="fst-italic">Profession</span>
-                            </div>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-3.jpg"
-                                style="width: 90px; height: 90px;">
-                            <div class="testimonial-text text-center p-4">
-                                <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                                    ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                                    clita.</p>
-                                <h5 class="mb-1">Client Name</h5>
-                                <span class="fst-italic">Profession</span>
-                            </div>
-                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -447,16 +425,17 @@
                     <div class="row g-0 mx-lg-0">
                         <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
                             <div class="position-relative h-100">
-                                <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg"
-                                    style="object-fit: cover;" alt="">
+                                <img class="position-absolute img-fluid w-100 h-100"
+                                    src="{{ asset('img/contact-us-2.webp') }}" style="object-fit: cover;" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
                             <div class="p-lg-5 pe-lg-0">
                                 <div class=" text-start">
-                                    <h1 class="display-5 mb-4">Pesan Sekarang</h1>
+                                    <h5 class="text-primary">Butuh jasa finishing?</h5>
+                                    <h1 class="display-5 mb-4">Hubungi Kami Sekarang!</h1>
                                 </div>
-                                <p class="mb-4 pb-2">Butuh jasa finishing? Hubungi kami sekarang!</p>
+                                {{-- <p class="mb-4 pb-2">Butuh jasa finishing? Hubungi kami sekarang!</p> --}}
                                 <form>
                                     <div class="row g-3">
                                         <div class="col-12">

@@ -15,9 +15,14 @@
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i><a class="text-white" href="#">
                             {{ env('EMAIL_ADDRESS') }} </a></p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-tiktok"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="{{ env('FACEBOOK_ACCOUNT') }}"
+                            target="blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="{{ env('INSTAGRAM_ACCOUNT') }}"
+                            target="blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="{{ env('TIKTOK_ACCOUNT') }}" target="blank"><i
+                                class="fab fa-tiktok"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="{{ env('YOUTUBE_ACCOUNT') }}"
+                            target="blank"><i class="fab fa-youtube"></i></a>
 
                     </div>
                 </div>

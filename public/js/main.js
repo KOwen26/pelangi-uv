@@ -63,7 +63,7 @@
         center: true,
         dots: false,
         loop: true,
-        nav: false,
+        nav: true,
         navText: [
             '<i class="bi bi-arrow-left"></i>',
             '<i class="bi bi-arrow-right"></i>',
@@ -73,7 +73,7 @@
                 items: 1,
             },
             768: {
-                items: 2,
+                items: 5,
             },
         },
     });
