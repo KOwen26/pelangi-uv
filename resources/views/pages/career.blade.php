@@ -19,7 +19,8 @@
                             <p class="mb-4 pb-2 ">
                                 -
                             </p>
-                            {{-- <a href="" class="btn btn-primary py-3 px-5">Daftar Sekarang</a> --}}
+                            {{-- <a href="mailto:pelangiuv@gmail.com" target="blank" class="btn btn-primary py-3 px-5">Daftar
+                                Sekarang</a> --}}
                         </div>
                     </div>
                 </div>
