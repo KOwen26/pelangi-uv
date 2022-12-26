@@ -59,17 +59,17 @@
                 [
                     'type' => 'Laminating Doff',
                     'price' => 0.19,
-                    'min_order' => 240000,
+                    'min_order' => 190000,
                 ],
                 [
                     'type' => 'Laminating Gloss',
                     'price' => 0.13,
-                    'min_order' => 240000,
+                    'min_order' => 165000,
                 ],
                 [
                     'type' => 'Laminating Hologram',
                     'price' => 0.3,
-                    'min_order' => 240000,
+                    'min_order' => 190000,
                 ],
             ],
         ],
@@ -95,7 +95,7 @@
                 [
                     'type' => 'Laminating 12 Micron',
                     'price' => 0.14,
-                    'min_order' => 240000,
+                    'min_order' => 190000,
                 ],
             ],
         ],

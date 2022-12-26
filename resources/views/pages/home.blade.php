@@ -6,7 +6,7 @@
             'subtitle' => '',
             'action' => '#about',
             'action_title' => 'Selengkapnya',
-            'description' => 'CV Pelangi UV merupakan perusahaan yang bergerak di bidang fisnishing cetak yang berdiri sejak tahun 2004. Kami memiliki...',
+            'description' => 'CV Pelangi UV merupakan perusahaan yang bergerak di bidang finishing cetak yang berdiri sejak tahun 2004. Kami memiliki...',
         ],
         // [
         //     'image' => 'img/carousel-2.jpg',
@@ -14,7 +14,7 @@
         //     'subtitle' => '',
         //     'action' => '#about',
         //     'action_title' => 'Selengkapnya',
-        //     'description' => 'CV Pelangi UV merupakan perusahaan yang bergerak di bidang fisnishing cetak yang berdiri sejak tahun 2004. Kami memiliki...',
+        //     'description' => 'CV Pelangi UV merupakan perusahaan yang bergerak di bidang finishing cetak yang berdiri sejak tahun 2004. Kami memiliki...',
         // ],
         // [
         //     'image' => 'img/carousel-3.jpg',
@@ -22,7 +22,7 @@
         //     'subtitle' => '',
         //     'action' => '#about',
         //     'action_title' => 'Selengkapnya',
-        //     'description' => 'CV Pelangi UV merupakan perusahaan yang bergerak di bidang fisnishing cetak yang berdiri sejak tahun 2004. Kami memiliki...',
+        //     'description' => 'CV Pelangi UV merupakan perusahaan yang bergerak di bidang finishing cetak yang berdiri sejak tahun 2004. Kami memiliki...',
         // ],
     ];
 
@@ -196,11 +196,11 @@
                             </div>
                             <div class="d-flex justify-content-center mb-5">
                                 <iframe class="d-md-block d-none" width="960" height="540"
-                                    src="https://www.youtube.com/embed/iguuSI8pc_w" title="CV Pelangi UV" frameborder="0"
+                                    src="https://www.youtube.com/embed/C2-qdNi9qa4" title="CV Pelangi UV" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                                 <iframe class="d-md-none" width="426" height="240"
-                                    src="https://www.youtube.com/embed/iguuSI8pc_w" title="CV Pelangi UV" frameborder="0"
+                                    src="https://www.youtube.com/embed/C2-qdNi9qa4" title="CV Pelangi UV" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             </div>
@@ -230,8 +230,8 @@
                                 <p class="mb-4 pb-2 ">CV Pelangi UV merupakan perusahaan yang bergerak pada
                                     bidang finishing cetak dan telah berdiri sejak tahun 2004. Kantor kami terletak di
                                     Kompleks Pergudangan Bizpark C-3,
-                                    Tambak Sawah, Waru, Sidoarjo. Saat ini kami memiliki 17 mesin cetak dengan tenaga
-                                    operator yang sudah profesional dan
+                                    Tambak Sawah, Waru, Sidoarjo. Saat ini kami memiliki 17 mesin finishing dengan tenaga
+                                    operator yang profesional dan
                                     berpengalaman pada bidang finishing selama bertahun-tahun. Kualitas hasil finishing
                                     adalah
                                     prioritas utama kami.</p>
@@ -523,7 +523,7 @@
                         {{-- <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To WooDY</h5> --}}
                         <h1 class="display-3 text-white animated slideInDown mb-4">Pelangi UV</h1>
                         <p class="fs-5 fw-medium text-white mb-4 pb-2">CV Pelangi UV merupakan perusahaan yang
-                            bergerak di bidang fisnishing cetak yang berdiri sejak tahun 2004. Kami memiliki...
+                            bergerak di bidang finishing cetak yang berdiri sejak tahun 2004. Kami memiliki...
                         </p>
                         <a href=""
                             class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Selengkapnya</a>
@@ -544,7 +544,7 @@
                         {{-- <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To WooDY</h5> --}}
                         <h1 class="display-3 text-white animated slideInDown mb-4">Pelangi UV</h1>
                         <p class="fs-5 fw-medium text-white mb-4 pb-2">CV Pelangi UV merupakan perusahaan yang
-                            bergerak di bidang fisnishing cetak yang berdiri sejak tahun 2004. Kami memiliki...
+                            bergerak di bidang finishing cetak yang berdiri sejak tahun 2004. Kami memiliki...
                         </p>
                         <a href=""
                             class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Selengkapnya</a>
